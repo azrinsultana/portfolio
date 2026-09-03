@@ -607,22 +607,24 @@ section,
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-weight: bold;
+
 }
 
 .hero .intro .display-heading {
   font-family: var(--heading-font);
-  font-weight: 300;
-  font-size: clamp(36px, 5vw, 56px);
+  font-weight: 600;
+  font-size: clamp(36px, 5vw, 40px);
   line-height: 1.15;
-  letter-spacing: -0.02em;
   margin-bottom: 10px;
 }
 
 .hero .intro .lead {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   color: color-mix(in srgb, var(--default-color), transparent 10%);
-  max-width: 58ch;
+  /* max-width: 58ch; */
+  text-align: justify;
 }
 
 .hero .btn-ghost {
@@ -691,7 +693,7 @@ section,
 }
 
 .hero .portrait-wrap .portrait-img {
-  width: 100%;
+  width: 250px;
   height: auto;
   border-radius: 10px;
   display: block;
@@ -3461,9 +3463,6 @@ section .hero {
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 
 /* =========================================
@@ -3572,21 +3571,36 @@ section .hero {
 }
 
 
+/* ================================
+   FIXED HEADER
+   ================================ */
+
+
+
+/* Logo */
+.mobile-nav .logo {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+}
+
+.mobile-nav .sitename {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* Navigation */
+
+
 @media (max-width: 768px){
 
 .horizontal-nav{
   display: none;
 }
 .mobile-nav{
-  display: block;
-}
-}
+  display: block ;
 
-/* ================================
-   FIXED HEADER
-   ================================ */
-
-.mobile-nav {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
@@ -3608,22 +3622,4 @@ section .hero {
     z-index: 99999 !important;
 }
 
-/* Logo */
-.mobile-nav .logo {
-    display: flex !important;
-    align-items: center !important;
-    margin: 0 !important;
 }
-
-.mobile-nav .sitename {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-
-/* Navigation */
-.mobile-nav .navmenu {
-    position: fixed !important;
-   
-}
-
