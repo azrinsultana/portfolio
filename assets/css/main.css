@@ -1,16 +1,4 @@
-/**
-* Template Name: MinimalFolio
-* Template URL: https://bootstrapmade.com/minimalfolio-bootstrap-portfolio-template/
-* Updated: Aug 05 2025 with Bootstrap v5.3.7
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Quicksand",  sans-serif;
@@ -582,7 +570,6 @@ section,
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-bottom: 120px;
   /* Typographic system for hero */
   /* CTAs */
   /* Meta row */
@@ -1319,7 +1306,7 @@ section .hero {
 }
 
 .resume .experience-grid {
-  max-width: 800px;
+  /* max-width: 800px; */
   margin: 0 auto;
 }
 
@@ -1990,7 +1977,7 @@ section .hero {
 .faq .faq-item .faq-header {
   display: flex;
   align-items: center;
-  padding: 40px 0;
+  padding: 8px 0;
   cursor: pointer;
   gap: 0;
   transition: all 0.3s ease;
@@ -3591,7 +3578,9 @@ section .hero {
 
 
 /* Navigation */
-
+.badge{
+  background-color: rgb(228, 229, 232) !important;
+}
 
 @media (max-width: 768px){
 

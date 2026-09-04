@@ -1,10 +1,4 @@
-/**
-* Template Name: MinimalFolio
-* Template URL: https://bootstrapmade.com/minimalfolio-bootstrap-portfolio-template/
-* Updated: Aug 05 2025 with Bootstrap v5.3.7
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 (function() {
   "use strict";
