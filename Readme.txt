@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Thanks for reviewing my portfolio
 
-Template Name: MinimalFolio
-Template URL: https://bootstrapmade.com/minimalfolio-bootstrap-portfolio-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Author: AZRIN
