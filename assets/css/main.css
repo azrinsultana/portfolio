@@ -1711,7 +1711,7 @@ section .hero {
 
 .portfolio .content {
   padding: 30px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .portfolio .content h3 {
@@ -3580,6 +3580,16 @@ section .hero {
 /* Navigation */
 .badge{
   background-color: rgb(228, 229, 232) !important;
+}
+.paper-badge{
+  padding: 0.5rem 1rem;
+    background-color: 
+ color-mix(in srgb, var(--accent-color), transparent 92%);
+    color: var(--accent-color);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 768px){
