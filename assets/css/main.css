@@ -311,12 +311,26 @@ h6 {
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+.footer .social-links a svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 16px;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   margin: 0 5px;
   transition: 0.3s;
 }
-
 .footer .social-links a:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+.footer .social-links a svg:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -3588,7 +3602,10 @@ section .hero {
     font-weight: 500;
     transition: all 0.3s ease;
 }
-
+.fa-solid, .fa-regular, .fa-brands {
+    font-family: "Font Awesome 6 Free" !important;
+    display: inline-block !important;
+}
 @media (max-width: 768px){
 
 .horizontal-nav{
