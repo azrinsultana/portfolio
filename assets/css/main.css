@@ -560,7 +560,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -620,7 +620,7 @@ section,
 }
 
 .hero .intro .lead {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.8;
   color: color-mix(in srgb, var(--default-color), transparent 10%);
   /* max-width: 58ch; */
@@ -743,7 +743,7 @@ section .hero {
 
 @media (max-width: 992px) {
   .hero .intro .lead {
-    font-size: 17px;
+    font-size: 1rem;
   }
 
   .hero .portrait-wrap .badge.note {
@@ -2362,10 +2362,7 @@ section .hero {
     padding: 40px 0;
   }
 
-  .contact .contact-sidebar {
-    padding: 40px 30px;
-    margin-bottom: 40px;
-  }
+ 
 }
 
 @media (max-width: 768px) {
@@ -2382,9 +2379,7 @@ section .hero {
     margin-bottom: 30px;
   }
 
-  .contact .contact-sidebar {
-    padding: 30px 25px;
-  }
+ 
 
   .contact .contact-sidebar .contact-header,
   .contact .contact-sidebar .contact-methods {
