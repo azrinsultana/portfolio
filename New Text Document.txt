@@ -1,0 +1,15 @@
+I am a Computer Science researcher and AI engineer focused on developing reliable, efficient, and practical AI systems. I hold M.Sc. and B.Sc. degrees in Computer Science from American International University-Bangladesh (AIUB), with CGPAs of 3.91 and 3.92/4.00, and received Magna Cum Laude and Dean’s Awards for academic and research excellence. With 11 publications and industry experience, my research spans NLP, healthcare AI, multimodal learning, LLMs, RAG, Agentic AI, and efficient deep learning.
+
+My research aims to improve AI reliability, adaptability, and accessibility. In my master’s thesis, LiSTA-NER, I developed a learnable activation function specifically designed for Named Entity Recognition to better capture informative rare entity tokens. My current work explores adaptive retrieval strategies for multi-hop RAG, including dynamic retrieval depth selection using reinforcement learning and k-nearest-neighbor approaches, along with resource-efficient model optimization.
+
+Through professional experience as an AI and Software Engineer, I have gained practical expertise in LLMs, RAG, LoRA/QLoRA, vector databases, APIs, databases, and scalable AI systems. Growing up in Bangladesh shaped my motivation to reduce the computational and financial barriers of advanced AI technologies.
+
+My long-term goal is to build trustworthy, resource-efficient, and accessible AI systems by advancing research in NLP, LLMs, RAG, Agentic AI, multimodal AI, knowledge-driven systems, and efficient deep learning, creating AI solutions that are both scientifically meaningful and practically impactful.
+
+
+
+
+
+My research focuses on developing reliable, efficient, and practical AI systems across NLP, healthcare AI, multimodal learning, LLMs, RAG, and Agentic AI. During my master’s thesis, LiSTA-NER, I addressed limitations in Named Entity Recognition by designing a learnable activation function tailored for identifying rare but informative entity tokens.
+
+Currently, I explore adaptive and resource-efficient LLM systems, including dynamic retrieval strategies for multi-hop RAG using reinforcement learning, Agentic AI, and k-nearest-neighbor methods, as well as model optimization techniques to reduce computational costs. My long-term goal is to develop trustworthy, adaptive, and energy-efficient AI technologies that deliver strong performance while remaining accessible and practical, especially for resource-constrained communities.

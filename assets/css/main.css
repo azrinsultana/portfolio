@@ -1750,7 +1750,6 @@ section .hero {
 @media (min-width: 1200px) {
   .portfolio .portfolio-grid {
     grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
   }
 }
 
@@ -3629,5 +3628,113 @@ section .hero {
 
     z-index: 99999 !important;
 }
+
+}
+
+/* =========================================================
+   Teaching Section
+   ========================================================= */
+
+#teaching {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Section heading spacing */
+#teaching .section-title {
+  padding-bottom: 40px;
+}
+
+#teaching .section-title h2 {
+  margin-bottom: 15px;
+}
+
+#teaching .section-title p {
+  margin-bottom: 0;
+}
+
+/* Teaching card */
+.teaching-card {
+  position: relative;
+  height: 100%;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--surface-color);
+  transition: all 0.3s ease;
+  display: flex;
+  gap: 25px;
+}
+
+/* Hover */
+.teaching-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Number */
+.teaching-number {
+  font-size: 18px;
+  font-weight: 700;
+  min-width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Content */
+.teaching-content {
+  flex: 1;
+}
+
+.teaching-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 12px;
+}
+
+.teaching-content p {
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+/* Tags */
+.teaching-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.teaching-tags span {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: color-mix(
+    in srgb,
+    var(--accent-color),
+    transparent 90%
+  );
+  color: var(--accent-color);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+  #teaching {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  #teaching .section-title {
+    padding-bottom: 30px;
+  }
+
+  .teaching-card {
+    padding: 25px;
+  }
 
 }
